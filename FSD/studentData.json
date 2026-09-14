@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "age": 20,
+    "course": "B.Tech CSE",
+    "year": 2,
+    "city": "Delhi"
+  },
+  {
+    "id": 2,
+    "name": "Niharika Saini",
+    "age": 19,
+    "course": "B.Tech CSE",
+    "year": 2,
+    "city": "Ghaziabad"
+  },
+  {
+    "id": 3,
+    "name": "Rohan Verma",
+    "age": 21,
+    "course": "B.Tech IT",
+    "year": 3,
+    "city": "Noida"
+  },
+  {
+    "id": 4,
+    "name": "Priya Singh",
+    "age": 20,
+    "course": "B.Tech ECE",
+    "year": 2,
+    "city": "Lucknow"
+  },
+  {
+    "id": 5,
+    "name": "Aditya Kumar",
+    "age": 22,
+    "course": "B.Tech ME",
+    "year": 4,
+    "city": "Kanpur"
+  },
+  {
+    "id": 6,
+    "name": "Sneha Gupta",
+    "age": 19,
+    "course": "B.Tech CSE",
+    "year": 1,
+    "city": "Jaipur"
+  },
+  {
+    "id": 7,
+    "name": "Rahul Yadav",
+    "age": 21,
+    "course": "B.Tech Civil",
+    "year": 3,
+    "city": "Agra"
+  },
+  {
+    "id": 8,
+    "name": "Ananya Mishra",
+    "age": 20,
+    "course": "B.Tech AI",
+    "year": 2,
+    "city": "Prayagraj"
+  },
+  {
+    "id": 9,
+    "name": "Karan Patel",
+    "age": 22,
+    "course": "B.Tech EE",
+    "year": 4,
+    "city": "Ahmedabad"
+  },
+  {
+    "id": 10,
+    "name": "Meera Joshi",
+    "age": 19,
+    "course": "B.Tech CSE",
+    "year": 1,
+    "city": "Dehradun"
+  }
+]
