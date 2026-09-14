@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "homepage": "https://github.com/ni8574/FsdBackend#readme",
+  "bugs": {
+    "url": "https://github.com/ni8574/FsdBackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ni8574/FsdBackend.git"
+  },
+  "license": "ISC",
+  "author": "Niharika",
+  "type": "module",
+  "main": "practical3.js",
+  "scripts": {
+    "start":"node practical3.js"
+    
+  }
+}
