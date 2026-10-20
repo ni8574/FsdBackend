@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Help Desk</title>
+  <link rel="stylesheet" href="Ass4.css"> 
+</head>
+<body>
+  <header>
+    <h1>Campus Help Desk</h1>
+    <p>Report a problem or make a request. We'll get back to you.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2 id="formTitle">New Request</h2>
+      <form id="requestForm" novalidate>
+        <input type="hidden" id="requestId">
+        <div class="grid">
+          <label>Student Name<input id="name" required></label>
+          <label>Email<input id="email" type="email" required></label>
+          <label>Category
+            <select id="category" required>
+              <option value="">Select…</option>
+              <option>Hostel</option>
+              <option>Library</option>
+              <option>Academics</option>
+              <option>IT / Wi-Fi</option>
+              <option>Canteen</option>
+              <option>Transport</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Priority
+            <select id="priority" required>
+              <option>Low</option>
+              <option selected>Medium</option>
+              <option>High</option>
+            </select>
+          </label>
+        </div>
+        <label>Problem Description<textarea id="description" rows="4" required></textarea></label>
+        <p id="message" role="alert"></p>
+        <div class="actions">
+          <button type="submit" id="submitBtn">Submit Request</button>
+          <button type="button" id="cancelBtn" class="ghost" hidden>Cancel Edit</button>
+        </div>
+      </form>
+    </section>
+
+    <section>
+      <h2>All Requests <span id="count"></span></h2>
+      <div id="list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

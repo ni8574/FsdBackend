@@ -20,5 +20,8 @@
   "homepage": "https://github.com/ni8574/FsdBackend#readme",
   "Scripts": {
     "start": "node practical3.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
